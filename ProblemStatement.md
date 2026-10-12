@@ -27,7 +27,7 @@ Use a **public, labeled or semi-realistic log dataset**, not production data:
 
 **Best starter choice:** a small **SSH / failed-login / authentication log** dataset (CSV or syslog). Easier to explain in interviews than a full IDS feature dump.
 
-If public data feels heavy, he can also **generate synthetic logs** (Python script that writes normal + attack traffic) and document how they were generated — that still looks intentional and honest.
+If public data feels heavy, you can also **generate synthetic logs** (Python script that writes normal + attack traffic) and document how they were generated — that still looks intentional and honest.
 
 ---
 

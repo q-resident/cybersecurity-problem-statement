@@ -23,7 +23,7 @@ Use a **public, labeled or semi-realistic log dataset**, not production data:
 |--------|----------------|------------|
 | [AIT Log Dataset](https://zenodo.org/records/7119953) (auth/system logs) | Realistic enterprise-style logs | Medium |
 | [Honeypot / auth failure logs on Kaggle](https://www.kaggle.com/datasets) (search “SSH logs”, “failed login”) | Easy to analyze with Python/pandas | Easy |
-| [CIC-IDS / UNSW-NB15](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/) | Classic network IDS datasets | Harder — only if he wants network focus |
+| [CIC-IDS / UNSW-NB15](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/) | Classic network IDS datasets | Harder — only if you want network focus |
 
 **Best starter choice:** a small **SSH / failed-login / authentication log** dataset (CSV or syslog). Easier to explain in interviews than a full IDS feature dump.
 
@@ -57,11 +57,11 @@ cyber-log-threat-assessment/
 - Same user, many hosts → lateral-movement hint
 - Privileged account anomalies
 
-No need for fancy ML. Interviewers care more that he can **explain evidence → risk → control**.
+No need for fancy ML. Interviewers care more that you can **explain evidence → risk → control**.
 
 ---
 
-## README story he should tell
+## README story you should tell
 
 1. **Context:** “Junior analyst exercise for Acme Corp after suspicious login spikes.”
 2. **Scope:** auth/system logs only; no live hacking.
@@ -77,17 +77,17 @@ That README *is* the authenticity proof.
 ## Why this works for internships
 
 - Matches entry roles: **SOC analyst / junior security analyst / GRC junior**.
-- Shows he can turn course theory into a **repeatable security process**.
+- Shows you can turn course theory into a **repeatable security process**.
 - Easy to demo live: “Here’s an alert, here’s why it matters, here’s the fix.”
-- Avoids red-team/exploit repos that look risky or overclaim skills he doesn’t have yet.
+- Avoids red-team/exploit repos that look risky or overclaim skills you don’t have yet.
 
 ---
 
-## Two solid backups (if he prefers another angle)
+## Two solid backups (if you prefer another angle)
 
 **A. OWASP + DB security mini-lab (Course 4 heavy)**  
 Tiny vulnerable vs secure login/query demo, SQL injection prevented with parameterized queries, role/permission matrix, short write-up mapped to OWASP Top 10.  
-*Best if he likes hands-on coding more than log analysis.*
+*Best if you like hands-on coding more than log analysis.*
 
 **B. Compliance gap assessment (Course 3 heavy)**  
 Fictional company profile → checklist against NIST CSF or ISO 27001-style controls → gap report + 30/60/90-day remediation plan. Less code, more writing — good for GRC/compliance internships.

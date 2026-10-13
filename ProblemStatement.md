@@ -96,4 +96,4 @@ Fictional company profile → checklist against NIST CSF or ISO 27001-style cont
 
 ## Suggestions
 
-Ship **one repo in 1–2 weeks**: *Log-based Threat Detection & Risk Assessment*, using a public auth-log dataset, with a clean risk register and NIST-mapped recommendations. That is enough authenticity for the next phase without pretending he’s a penetration tester.
+Ship **one repo in 1–2 weeks**: *Log-based Threat Detection & Risk Assessment*, using a public auth-log dataset, with a clean risk register and NIST-mapped recommendations. That is enough authenticity for the next phase without pretending you are a penetration tester.
